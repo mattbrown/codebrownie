@@ -1,0 +1,25 @@
+Steps for setting up a website:
+
+1. Get a domain name. 
+I used dream host
+
+2. Setup hosting. Since my site is static, I'm going to use AWS S3 (Simple Storage Service)
+http://docs.aws.amazon.com/AmazonS3/latest/dev/website-hosting-custom-domain-walkthrough.html
+
+3. Setup DNS. I'm using Route 53
+
+4. Google analytics?
+
+
+
+
+TODO:
+- Setup code directory
+- fix www thing 
+-- make www bucket
+-- do step for dns (cname) to get the ww bucket working correctly
+
+ns-926.awsdns-51.net. 
+ns-1642.awsdns-13.co.uk. 
+ns-1231.awsdns-25.org. 
+ns-364.awsdns-45.com.
